@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Familjen Grotesk', sans-serif;
+}
+
+body {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+main {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+  grid-template-rows: 100px auto;
+  width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url('./static/images/LooperBG.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 2.4rem;
+  font-family: 'Chilanka', cursive;
+  cursor: pointer;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  width: 594px;
+  font-size: 1.8rem;
+}
+
+.header-list li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.header-nav {
+  width: 128px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav img {
+  cursor: pointer;
+}
+
+/* Hero Section (start) */
+.hero {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.hero h1 {
+  font-size: 8rem;
+  background: linear-gradient(91deg, #FF1CF7, #00F0FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+  font-size: 8rem;
+}
+
+.hero p {
+  width: 723px;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 33px;
+  padding: 0 30px;
+}
+
+.hero-buttons {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-buttons button {
+  width: 176px;
+  height: 70px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-family: 'Familjen Grotesk',
+    sans-serif;
+}
+
+.hero-buttons button:nth-child(1) {
+  background: linear-gradient(180deg, #497CFF, #001664);
+  border: none;
+}
+.hero-buttons button:nth-child(2) {
+  background: linear-gradient(180deg, #D1D3E2, #75629D);
+  border: none;
+  color: #000000;
+}
+/* Hero Section (end) */

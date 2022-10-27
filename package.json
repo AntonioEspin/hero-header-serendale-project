@@ -1,0 +1,23 @@
+{
+  "name": "hero-header-serendale-project",
+  "version": "1.0.0",
+  "description": "Hero-header. Proyecto hecho con html y css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioEspin/hero-header-serendale-project.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Antonio Espin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonioEspin/hero-header-serendale-project/issues"
+  },
+  "homepage": "https://github.com/AntonioEspin/hero-header-serendale-project#readme"
+}
